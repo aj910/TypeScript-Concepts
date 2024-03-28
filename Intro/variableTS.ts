@@ -4,7 +4,7 @@ console.log(message);
 
 // message = 10 // will throw an error: Type 'number' is not assignable to type 'string'
 
-const num: number = 10;
+var num: number = 10;
 console.log(num);
 //num.toUpperCase() // will throw an error: Property 'toUpperCase' does not exist on type 'number'
 
