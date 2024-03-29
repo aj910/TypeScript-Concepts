@@ -14,6 +14,14 @@ function loginUser(name: string, email: string, isLoggedIn: boolean = true) {
 var show = loginUser("Anmol", "anmol@gmail.com");
 console.log(show);
 
+// arrow functions in TS
+
+const multiply = (a: number, b: number) : number => {
+  return a * b;
+}
+
+let output = multiply(10, 50);
+console.log(output);
 
 
 
